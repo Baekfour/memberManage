@@ -39,7 +39,7 @@ public class MemberController {
 	public List<Member> findAll() {
 		return memberService.findAll();
 	}
-
+	//signup
 	// 회원가입
 	@ResponseBody
 	@RequestMapping(value = "/signUp", method = RequestMethod.POST)
